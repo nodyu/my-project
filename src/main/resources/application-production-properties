@@ -17,3 +17,4 @@ spring.mail.properties.mail.smtp.starttls.enable=true
 stripe.api-key=${STRIPE_API_KEY}
 stripe.webhook-secret=${STRIKE_WEBHOOK_SECRET}
 
+server.port=${PORT:8080}
